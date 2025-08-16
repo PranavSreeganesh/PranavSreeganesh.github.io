@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Profile - Pranav Sreeganesh</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #fdfbfb, #ebedee);
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      background: #fff;
+      max-width: 900px;
+      width: 100%;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .profile-pic {
+      width: 200px;
+      border-radius: 1rem;
+      object-fit: cover;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #222;
+    }
+    h3 {
+      margin-top: .3rem;
+      color: #555;
+      font-weight: 500;
+    }
+    section {
+      margin-top: 2rem;
+    }
+    section h2 {
+      font-size: 1.4rem;
+      margin-bottom: .5rem;
+      color: #0077ff;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul li {
+      background: #f4f6f9;
+      margin: .4rem 0;
+      padding: .6rem 1rem;
+      border-radius: .8rem;
+      color: #333;
+    }
+    .links {
+      margin-top: 2rem;
+    }
+    .links a {
+      display: inline-block;
+      margin-right: 1rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 999px;
+      text-decoration: none;
+      background: #0077ff;
+      color: white;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+    }
+    .links a:hover {
+      background: #005ec4;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+    }
+    @media (max-width: 700px) {
+      .header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .profile-pic {
+        width: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <!-- Profile picture in same folder -->
+      <img class="profile-pic" src="ProfilePic.jpg" alt="Profile Picture">
+      <div>
+        <h1>Pranav Sreeganesh</h1>
+        <h3>Indian Institute of Science Education and Research Tirupati</h3>
+      </div>
+    </div>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I am Pranav Sreeganesh, and yes, that is a real tiger. I enjoy reading random physics and math stuff. 
+        I also spend a lot of time reading books and watching movies. I enjoy cricket. I enjoy Astrobiology and 
+        I am convinced alien life does exist. I grew up in Chennai, Tamil Nadu, India. I am pursuing my BS-MS degree 
+        in IISER Tirupati majoring in Physics (as of 4/8/25).
+      </p>
+    </section>
+
+    <section>
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Reading Fiction (Science Fiction and Fantasy are my preferred)</li>
+        <li>Reading Comic Books</li>
+        <li>Writing random math proofs</li>
+        <li>Watching Star Wars on repeat (4,5,1,2,3,6)</li>
+        <li>Drawing</li>
+        <li>Watching Cricket (I root for India in internationals, CSK in IPL)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Astronomy</li>
+        <li>Quantum Physics</li>
+        <li>Science Fiction and Fantasy</li>
+        <li>Astrobiology</li>
+        <li>Cricket</li>
+      </ul>
+    </section>
+
+    <div class="links">
+      <!-- Resume in same folder -->
+      <a href="Resume5Aug2025 (final).pdf" target="_blank">View CV</a>
+      <a href="mailto:yourmail@example.com">Contact</a>
+    </div>
+  </div>
+</body>
+</html>
